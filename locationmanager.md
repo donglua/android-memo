@@ -16,7 +16,6 @@ String bestProvider = mLocationManager.getBestProvider(criteria, false);
 mLocationManager.requestLocationUpdates(bestProvider, 6000, 100, mLocationListener);
 
 
-
 @Override protected void onDestroy() {
   super.onDestroy();
   mLocationManager.removeUpdates(mLocationListener);
