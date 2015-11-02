@@ -18,7 +18,7 @@ mLocationManager.requestLocationUpdates(bestProvider, 6000, 100, mLocationListen
 
 
 @Override protected void onDestroy() {
-super.onDestroy();
-mLocationManager.removeUpdates(mLocationListener);
+  super.onDestroy();
+  mLocationManager.removeUpdates(mLocationListener);
 }
 ```
