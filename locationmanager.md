@@ -13,5 +13,5 @@ criteria.setBearingRequired(false);
 criteria.setCostAllowed(false);
 
 String bestProvider = mLocationManager.getBestProvider(criteria, false);
-mLocationManager.requestLocationUpdates(bestProvider, 500, 100, mLocationListener);
+mLocationManager.requestLocationUpdates(bestProvider, 6000, 100, mLocationListener);
 ```
