@@ -1,3 +1,3 @@
-# 一些Android代码备忘
+# 一些Android代码的备忘
 
 
