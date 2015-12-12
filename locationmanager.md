@@ -21,16 +21,3 @@ mLocationManager.requestLocationUpdates(bestProvider, 6000, 100, mLocationListen
   mLocationManager.removeUpdates(mLocationListener);
 }
 ```
-
-
-# 引用本地aar文件
-```
-dependencies {
-  compile(name:'nameOfYourAARFileWithoutExtension', ext:'aar')
-}
-repositories {
-  flatDir{
-    dirs 'libs'
-  }
-}
-```
